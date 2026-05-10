@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 140">
+  <rect width="280" height="140" fill="#dcfce7"/>
+  <path d="M92 72l48-34 48 34v34H92z" fill="#16a34a"/>
+  <rect x="132" y="86" width="16" height="20" fill="#14532d"/>
+  <text x="104" y="124" font-size="22" font-family="Arial" fill="#14532d">Home</text>
+</svg>

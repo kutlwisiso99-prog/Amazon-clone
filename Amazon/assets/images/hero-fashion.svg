@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320">
+  <defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#dc2626"/><stop offset="1" stop-color="#7f1d1d"/></linearGradient></defs>
+  <rect width="1200" height="320" fill="url(#g2)"/>
+  <circle cx="1040" cy="90" r="110" fill="#fecaca" opacity=".22"/>
+  <circle cx="210" cy="250" r="90" fill="#fda4af" opacity=".2"/>
+  <text x="90" y="150" font-size="54" font-family="Arial" fill="#ffffff">New Fashion Drop</text>
+  <text x="90" y="200" font-size="28" font-family="Arial" fill="#fee2e2">Fresh styles for every season</text>
+</svg>

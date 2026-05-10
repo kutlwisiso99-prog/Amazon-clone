@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Clone - Checkout</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">amazon</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="search-wrap">
+      <input type="text" placeholder="Search products..." disabled />
+      <button disabled>Search</button>
+    </div>
+    <nav class="nav-links">
+      <button id="theme-toggle" class="theme-toggle">Dark Mode</button>
+      <a class="cart-link" href="cart.html">Cart <span id="cart-badge">0</span></a>
+    </nav>
+  </header>
+
+  <main class="checkout-page">
+    <h1>Checkout</h1>
+    <form id="checkout-form" class="checkout-grid">
+      <section class="checkout-card">
+        <h2>Shipping Details</h2>
+        <label>Full Name <input required name="fullName" type="text" /></label>
+        <label>Address <input required name="address" type="text" /></label>
+        <label>City <input required name="city" type="text" /></label>
+        <label>Postal Code <input required name="postalCode" type="text" /></label>
+        <label>Phone Number <input required name="phone" type="tel" /></label>
+      </section>
+
+      <section class="checkout-card">
+        <h2>Delivery Options</h2>
+        <label><input type="radio" name="delivery" value="standard" checked /> Standard Delivery</label>
+        <label><input type="radio" name="delivery" value="express" /> Express Delivery</label>
+
+        <h2>Payment</h2>
+        <label>Card Number <input required name="cardNumber" type="text" maxlength="19" /></label>
+        <label>Expiry Date <input required name="expiry" type="text" placeholder="MM/YY" /></label>
+        <label>CVV <input required name="cvv" type="password" maxlength="4" /></label>
+        <button class="btn-primary" type="submit">Place Order</button>
+      </section>
+    </form>
+    <p id="checkout-message" class="checkout-message"></p>
+  </main>
+
+  <script src="js/storage.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/darkmode.js" defer></script>
+  <script src="js/nav.js" defer></script>
+  <script src="js/checkout.js" defer></script>
+</body>
+</html>

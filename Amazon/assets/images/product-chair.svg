@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#f0fdf4"/>
+  <rect x="100" y="70" width="90" height="55" rx="12" fill="#15803d"/>
+  <rect x="110" y="126" width="70" height="35" rx="10" fill="#16a34a"/>
+  <rect x="130" y="160" width="30" height="18" fill="#052e16"/>
+  <line x1="145" y1="178" x2="120" y2="195" stroke="#052e16" stroke-width="4"/>
+  <line x1="145" y1="178" x2="170" y2="195" stroke="#052e16" stroke-width="4"/>
+  <text x="84" y="34" font-size="18" font-family="Arial" fill="#14532d">Office Chair</text>
+</svg>

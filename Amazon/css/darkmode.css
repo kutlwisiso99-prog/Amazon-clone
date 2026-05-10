@@ -1,0 +1,27 @@
+.dark-mode {
+  --bg: #121212;
+  --surface: #1f1f1f;
+  --text: #f4f4f4;
+  --muted: #b5b5b5;
+}
+
+.dark-mode .navbar {
+  background: #0d1117;
+}
+
+.dark-mode .cart-link {
+  background: #263447;
+}
+
+.dark-mode .search-wrap input {
+  background: #2a2a2a;
+  color: #fff;
+}
+
+.dark-mode .category-card,
+.dark-mode .product-card,
+.dark-mode .cart-items,
+.dark-mode .cart-summary,
+.dark-mode .checkout-card {
+  border-color: #343434;
+}

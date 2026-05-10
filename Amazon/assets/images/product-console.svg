@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#ede9fe"/>
+  <rect x="85" y="78" width="130" height="64" rx="24" fill="#111827"/>
+  <circle cx="120" cy="110" r="10" fill="#22d3ee"/>
+  <circle cx="180" cy="110" r="10" fill="#f43f5e"/>
+  <rect x="145" y="104" width="10" height="2" fill="#fff"/>
+  <rect x="149" y="100" width="2" height="10" fill="#fff"/>
+  <text x="80" y="36" font-size="18" font-family="Arial" fill="#4c1d95">Game Console</text>
+</svg>

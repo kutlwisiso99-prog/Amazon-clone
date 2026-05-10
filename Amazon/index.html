@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Clone - Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+</head>
+<body>
+  <header class="navbar">
+    <img src="assets/images/logo.jpg" alt="Amazon Logo" class="logo"/>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="search-wrap">
+      <input id="search-input" type="text" placeholder="Search products..." />
+      <button id="search-btn" aria-label="Search">Search</button>
+    </div>
+    <nav class="nav-links">
+      <a href="#">Hello, Sign In</a>
+      <a href="#">Returns &amp; Orders</a>
+      <button id="theme-toggle" class="theme-toggle">Dark Mode</button>
+      <a class="cart-link" href="cart.html"><span class="material-symbols-outlined">
+        
+        </span>Cart <span id="cart-badge">0</span></a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <button id="hero-prev" class="hero-arrow" aria-label="Previous slide">&#10094;</button>
+    <div class="hero-track">
+      <article class="hero-slide active">
+        <img src="assets/images/hero-tech.jpg" alt="Tech mega deals" />
+        <div class="hero-content">
+          <h1>Tech Week Mega Deals</h1>
+          <p>Save big on headphones, laptops and smart wearables.</p>
+        </div>
+      </article>
+      <article class="hero-slide">
+        <img src="assets/images/home-mothersday.jpg" alt="Fashion arrivals" />
+        <div class="hero-content">
+          <h1>Mothers Day Special | 10 May 2026</h1>
+          <p>Shop exclusive deals for your mom.</p>
+        </div>
+      </article>
+      <article class="hero-slide">
+        <img src="assets/images/hero-home.jpg" alt="Home essentials" />
+        <div class="hero-content">
+          <h1>Home Comfort Essentials</h1>
+          <p>Upgrade your home with smart and cozy finds.</p>
+        </div>
+      </article>
+    </div>
+    <button id="hero-next" class="hero-arrow" aria-label="Next slide">&#10095;</button>
+  </section>
+
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div id="category-grid" class="category-grid"></div>
+  </section>
+
+  <section class="products">
+    <h2>Today's Deals</h2>
+    <p id="result-text" class="result-text"></p>
+    <div id="products-grid" class="products-grid"></div>
+  </section>
+
+  <script src="js/products.js" defer></script>
+  <script src="js/storage.js" defer></script>
+  <script src="js/search.js" defer></script>
+  <script src="js/filter.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/darkmode.js" defer></script>
+  <script src="js/nav.js" defer></script>
+  <script src="js/app.js" defer></script>
+</body>
+</html>

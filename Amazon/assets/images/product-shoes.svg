@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 220">
+  <rect width="300" height="220" fill="#fff1e6"/>
+  <path d="M40 150h200c15 0 25 10 25 20H50c-20 0-25-10-10-20z" fill="#ef4444"/>
+  <path d="M80 130c25 8 35 20 55 20h-45c-18 0-30-6-35-20z" fill="#b91c1c"/>
+  <text x="40" y="34" font-size="18" font-family="Arial" fill="#7c2d12">Running Shoes</text>
+</svg>
