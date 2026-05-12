@@ -1,0 +1,31 @@
+{
+  "name": "amazon",
+  "version": "1.0.0",
+  "description": "Responsive Amazon-inspired eCommerce frontend built with:",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kutlwisiso99-prog/Amazon-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/kutlwisiso99-prog/Amazon-clone/issues"
+  },
+  "homepage": "https://github.com/kutlwisiso99-prog/Amazon-clone#readme",
+  "dependencies": {
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.15.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.1",
+    "vite": "^8.0.12"
+  }
+}

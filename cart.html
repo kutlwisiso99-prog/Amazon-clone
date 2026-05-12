@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amazon Clone - Cart</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/darkmode.css" />
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">amazon</a>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">☰</button>
+    <div class="search-wrap">
+      <input type="text" placeholder="Search products..." disabled />
+      <button disabled>Search</button>
+    </div>
+    <nav class="nav-links">
+      <button id="theme-toggle" class="theme-toggle">Dark Mode</button>
+      <a class="cart-link active" href="cart.html">Cart <span id="cart-badge">0</span></a>
+    </nav>
+  </header>
+
+  <main class="cart-page">
+    <h1>Your Shopping Cart</h1>
+    <div id="cart-items" class="cart-items"></div>
+    <aside class="cart-summary">
+      <h2>Order Summary</h2>
+      <p>Total Items: <span id="summary-items">0</span></p>
+      <p>Total Quantity: <span id="summary-quantity">0</span></p>
+      <p>Subtotal: <strong id="summary-subtotal">$0.00</strong></p>
+      <a class="btn-checkout" href="checkout.html">Proceed to Checkout</a>
+      <button id="clear-cart-btn" class="btn-secondary">Clear Cart</button>
+    </aside>
+  </main>
+
+  <script src="js/products.js" defer></script>
+  <script src="js/storage.js" defer></script>
+  <script src="js/cart.js" defer></script>
+  <script src="js/darkmode.js" defer></script>
+  <script src="js/nav.js" defer></script>
+</body>
+</html>
